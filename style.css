@@ -11,7 +11,7 @@ Author URI: http://www.ginger-ninja.net/
 body {
 	background: url(images/bg-body.png) repeat-x top center #E8F7F9;
 	font-family: "Trebuchet MS" Arial, Helvetica, sans-serif;
-	font-size: 62.5%;
+	font-size: 87.5%;
 	/* Sets default font size to 10px */
 	color: #222222;
 }
@@ -27,7 +27,6 @@ img {
 
 p {
 	margin-bottom: 1.75em;
-	text-indent: 2em;
 }
 
 a {
@@ -50,6 +49,41 @@ h3 {
 
 h4 {
 	font-size: 1.8em;
+}
+
+main {
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 2em;
+	background-color: #f9f9f9;
+}
+
+footer {
+	text-align: center;
+	padding: 20px;
+	font-size: 1em;
+	background-color: #f1f1f1;
+	color: #333;
+	margin-top: 40px;
+}
+
+dialog {
+	display: block;
+	position: relative;
+	margin: 2em auto;
+	padding: 1em 1.5em;
+	max-width: 600px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	background-color: #ffffff;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 /* Structure */
@@ -166,8 +200,6 @@ h4 {
 	margin-top: 10px;
 }
 
-#sidebar li {}
-
 #sidebar li a {
 	display: block;
 	height: 20px;
@@ -221,13 +253,10 @@ h4 {
 h1 {
 	font-size: 2.5em;
 	font-weight: normal;
-	cursor: default;
-	position: relative;
-	top: 50px;
-	left: 30px;
 	letter-spacing: 1px;
 	color: #aaaaaa;
 	font-style: italic;
+	margin: 20px 0 10px 0;
 }
 
 /* Feed */
