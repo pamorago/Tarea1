@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Nombre del Estudiante: Paula Mora">
+    <meta name="description" content="Ejemplo de aplicación de etiquetas HTML5">
+    <meta name="keywords" content="HTML5, etiquetas, tarea, diseño web, SEO">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 1 - Etiquetas HTML5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Tarea 1: Etiquetas HTML5</h1>
+        <h2>Nombre: [Tu Nombre Completo]</h2>
+        <figure>
+            <img src="images/avatar.jpg" alt="Fotografía del estudiante" width="150">
+            <figcaption>Avatar del estudiante</figcaption>
+        </figure>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Etiquetas de estructura básica</h2>
+            <p>Ejemplo del uso de etiquetas como <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>,
+                <code>&lt;meta&gt;</code> y <code>&lt;body&gt;</code>.
+            </p>
+        </section>
+
+        <section>
+            <h2>Etiquetas de sección</h2>
+            <article>
+                <hgroup>
+                    <h3>Encabezado principal</h3>
+                    <h4>Subtítulo relacionado</h4>
+                </hgroup>
+                <address>
+                    Contacto: estudiante@example.com<br>
+                    Tel: 8888-8888
+                </address>
+                <div>Esto es un contenedor genérico <code>&lt;div&gt;</code></div>
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                    title="Video de ejemplo"></iframe>
+            </article>
+        </section>
+
+        <section>
+            <h2>Etiquetas de grupo</h2>
+            <ul>
+                <li>Elemento lista no ordenada</li>
+                <li>Otro elemento</li>
+            </ul>
+            <ol>
+                <li>Paso uno</li>
+                <li>Paso dos</li>
+            </ol>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Lenguaje de marcado para crear páginas web</dd>
+            </dl>
+            <details>
+                <summary>Haz clic para ver más</summary>
+                <p>Información adicional con <code>&lt;details&gt;</code> y <code>&lt;summary&gt;</code></p>
+            </details>
+            <dialog open>Este es un diálogo de ejemplo</dialog>
+        </section>
+
+        <section>
+            <h2>Etiquetas de texto</h2>
+            <p>Este es un párrafo con un <mark>texto resaltado</mark>, <b>negrita</b>, <i>cursiva</i> y <strong>énfasis
+                    fuerte</strong>.</p>
+            <p>Ejemplo de código: <code>console.log("Hola Mundo");</code></p>
+            <blockquote>Cita en bloque</blockquote>
+            <q>Una cita corta</q>
+            <abbr title="World Wide Web">WWW</abbr>
+            <time datetime="2025-05-27">27 de mayo de 2025</time>
+        </section>
+
+        <section>
+            <h2>Etiquetas de enlace</h2>
+            <a href="https://www.w3schools.com" target="_blank">Ir a W3Schools</a>
+            <img src="images/mapa.jpg" usemap="#mapa-ejemplo" alt="Mapa de imagen">
+            <map name="mapa-ejemplo">
+                <area shape="rect" coords="34,44,270,350" href="https://example.com">
+            </map>
+        </section>
+
+        <section>
+            <h2>Etiquetas de imagen</h2>
+            <picture>
+                <source srcset="imagen.webp" type="image/webp">
+                <img src="images/imagen.png" alt="Imagen de prueba">
+            </picture>
+            <canvas id="miCanvas" width="200" height="100" style="border:1px solid #000;"></canvas>
+            <svg width="100" height="100">
+                <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+            </svg>
+        </section>
+
+        <section>
+            <h2>Etiquetas multimedia</h2>
+            <audio controls>
+                <source src="audios/audio.m4a" type="audio/mpeg">
+                Tu navegador no soporta audio.
+            </audio>
+            <video width="320" height="240" controls>
+                <source src="video/video.mp4" type="video/mp4">
+                Tu navegador no soporta video.
+            </video>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2025 - Ingeniería del Software - ISW-512</p>
+    </footer>
+
+</body>
+
+</html>
